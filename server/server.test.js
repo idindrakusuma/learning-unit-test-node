@@ -2,7 +2,7 @@ const request = require('supertest');
 
 var app = require('./server').app;
 
-describe('GET Function', () => {
+describe('SERVER TEST', () => {
   it('[/] It should be Hello World!', (done) => {
     request(app)
       .get('/')

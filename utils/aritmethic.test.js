@@ -1,7 +1,7 @@
 const aritmethic = require('./aritmethic');
 const expect = require('expect');
 
-describe('Aritmethic Function', () => {
+describe('UTILS TEST', () => {
   it('Should add 2 numbers', () => {
     const res = aritmethic.add(3,2);
     /* use expect library */
